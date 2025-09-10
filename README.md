@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Last Commit](https://img.shields.io/github/last-commit/s-fajar15/instaforge)
-![Stars](https://img.shields.io/github/stars/s-fajar15/instaforge?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/s-fajar15/IntaForge)
+![Stars](https://img.shields.io/github/stars/s-fajar15/IntaForge?style=social)
 
 **InstaForge** adalah sebuah tools otomatisasi untuk membuat akun Instagram baru secara massal dan cepat.  
 Nama "InstaForge" terinspirasi dari kata *Forge* (tempa/buat), yang menggambarkan proses pembuatan akun secara instan dan otomatis.
