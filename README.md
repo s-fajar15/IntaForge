@@ -1,5 +1,7 @@
 # InstaForge
 
+
+![InstaForge Logo](https://github.com/user-attachments/assets/19718b19-6779-448b-bd19-0fd1a4a4c0e9)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Last Commit](https://img.shields.io/github/last-commit/s-fajar15/IntaForge)
