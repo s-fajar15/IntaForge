@@ -1,4 +1,4 @@
-# InstaForge
+**InstaForge**
 
 
 ![InstaForge Logo](https://github.com/s-fajar15/IntaForge/blob/main/asset/quality_restoration_20250910181439075~2.png)
