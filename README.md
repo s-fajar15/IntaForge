@@ -1,36 +1,93 @@
-# Instaforge
+# InstaForge
 
-Instaforge adalah alat automatisasi yang dirancang khusus untuk membuat akun Instagram secara otomatis menggunakan email sementara (temp mail) atau email manual. Tools ini mengotomatisasi seluruh proses pendaftaran, mulai dari pembuatan email, verifikasi kode, pengisian data profil, hingga pembuatan akun lengkap dengan username dan password.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/username/instaforge)
+![Stars](https://img.shields.io/github/stars/username/instaforge?style=social)
 
-## Fitur Utama
+**InstaForge** adalah sebuah tools otomatisasi untuk membuat akun Instagram baru secara massal dan cepat.  
+Nama "InstaForge" terinspirasi dari kata *Forge* (tempa/buat), yang menggambarkan proses pembuatan akun secara instan dan otomatis.
 
-- Membuat akun Instagram otomatis dengan email generated atau email manual.
-- Pengisian data nama dan tanggal lahir secara random menggunakan Faker.
-- Proses verifikasi kode dari email sementara secara otomatis.
-- Penyesuaian username dengan format yang mudah dikustomisasi.
-- Penyimpanan data akun yang berhasil dibuat ke dalam file JSON.
-- Delay dan proses tunggu agar simulasi pembuatan akun lebih natural.
-- Integrasi opsional untuk otomatis mengikuti akun tertentu setelah pembuatan.
+---
 
-## Persyaratan Sistem
+## ✨ Fitur Utama
+- 🔹 **Auto Account Creator** – Membuat akun Instagram baru secara otomatis.  
+- 🔹 **Integrasi Email Sementara** – Menggunakan layanan email temporary untuk proses verifikasi.  
+- 🔹 **Auto Verification** – Mengambil kode OTP/konfirmasi dari email secara otomatis.  
+- 🔹 **Random Data Generator** – Nama, username, dan tanggal lahir dihasilkan secara acak dan realistis (via Faker).  
+- 🔹 **Auto Follow (opsional)** – Setelah akun dibuat, bisa langsung mengikuti target tertentu.  
+- 🔹 **Multi Account Support** – Bisa membuat banyak akun sekaligus dalam satu eksekusi.
 
-- Python 3.8 ke atas
-- Library: `requests`, `faker`, dan dependencies lainnya
+---
 
-## Cara Menggunakan
+## ⚙️ Instalasi
+1. Clone repository:
+   ```bash
+   git clone https://github.com/username/instaforge.git
+   cd instaforge
+   ```
 
-1. Clone repository atau download file source.
-2. Install dependencies dengan `pip install -r requirements.txt` (jika disediakan).
-3. Jalankan script menggunakan perintah `python main.py`.
-4. Masukkan jumlah akun Instagram yang ingin dibuat.
-5. Pilih mode email yang diinginkan: otomatis (generate email sementara) atau manual (input email sendiri).
-6. Tunggu proses pembuatan akun berjalan secara otomatis.
-7. Akun yang berhasil dibuat akan disimpan di folder `accounts` dalam format JSON.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Catatan Penting
+---
 
-- Tools ini dibuat untuk tujuan edukasi dan eksperimen. Gunakan secara bijak sesuai ketentuan Instagram.
-- Instagram dapat melakukan perubahan pada API atau mekanisme pendaftaran yang bisa menyebabkan tools ini tidak berfungsi.
+## 🚀 Cara Penggunaan
+Jalankan script utama:
+```bash
+python main.py
+```
+
+Lalu ikuti instruksi di terminal:
+- Masukkan jumlah akun yang ingin dibuat.
+- Tools akan otomatis membuat email, mendaftar, menerima kode OTP, hingga akun Instagram berhasil dibuat.
+
+---
+
+## 🖥️ Contoh Output
+```bash
+> Instagram Creator 2025 | s.fajar15
+
+> Mau buat berapa akun Instagram? : 3
+> Memproses 3 akun...
+
+> Memulai proses pembuatan: Maria Uwais (maria.uwais33@inboxkitten.com)
+> Mengambil token...
+> Mencari username yang tersedia...
+> Username tersedia: mariauwais33
+> Memverifikasi email...
+> Kode verifikasi diterima: 482913
+> Membuat password...
+> Mengatur tanggal lahir...
+> Menyimpan nama profil...
+> Akun berhasil dibuat ✅
+
+> Memulai proses pembuatan: Dimas Putra (dimas.putra12@inboxkitten.com)
+> ...
+```
+
+---
+
+## 📌 Catatan
+- Tools ini dibuat untuk tujuan **pembelajaran** dan **otomatisasi pribadi**.  
+- **Tidak disarankan** untuk penyalahgunaan (spam, jual akun, dsb). Gunakan dengan bijak.  
+- Instagram dapat mengubah mekanisme pendaftarannya sewaktu-waktu sehingga beberapa fungsi mungkin perlu diperbarui.
+
+---
+
+## 🛠️ Tech Stack
+- Python 3
+- `requests` – HTTP requests
+- `Faker` – Random data generator
+- API Temp Mail – Email sementara
+- Regex & UUID – Token parsing & device ID generator
+
+---
+
+## 📄 Lisensi
+MIT License © 2025 - s.fajar15
 - Jangan digunakan untuk spam atau aktivitas yang melanggar hukum atau kebijakan platform.
 
 ## Lisensi
