@@ -8,7 +8,6 @@
 ![Stars](https://img.shields.io/github/stars/s-fajar15/IntaForge?style=social)
 
 **InstaForge** adalah sebuah tools otomatisasi untuk membuat akun Instagram baru secara massal dan cepat.  
-Nama "InstaForge" terinspirasi dari kata *Forge* (tempa/buat), yang menggambarkan proses pembuatan akun secara instan dan otomatis.
 
 ---
 
